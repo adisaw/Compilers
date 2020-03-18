@@ -1,0 +1,124 @@
+=====================================================================================
+
+Generated Quads for the program
+
+  0 :	t000	=	19
+  1 :	a	=	t000
+  2 :	t001	=	3
+  3 :	t002	=	a + t001
+  4 :	b	=	t002
+  5 :	t003	=	a % b
+  6 :	a	=	t003
+  7 :	t004	=	t003
+  8 :	t005	=	a
+  9 :	p1	=	t005
+ 10 :	t006	=	p1
+ 11 :	if  t006 ==t007	goto 14
+ 12 :	goto 19
+ 13 :	goto 24
+ 14 :	t008	=	4
+ 15 :	t009	=	a * t008
+ 16 :	b	=	t009
+ 17 :	t010	=	t009
+ 18 :	goto 24
+ 19 :	t011	=	2
+ 20 :	t012	=	a * t011
+ 21 :	b	=	t012
+ 22 :	t013	=	t012
+ 23 :	goto 24
+ 24 :	t014	=	21
+ 25 :	t015	=	b << t014
+ 26 :	f	=	t015
+ 27 :	t016	=	1.800000
+ 28 :	d	=	t016
+ 29 :	t017	=	 Int2float(a)
+ 30 :	t018	=	t017 * d
+ 31 :	c	=	t018
+ 32 :	t019	=	t018
+ 33 :	t020	=	21.299999
+ 34 :	c	=	t020
+ 35 :	t021	=	t020
+ 36 :	t022	=	d / c
+ 37 :	d	=	t022
+ 38 :	t023	=	t022
+ 39 :	t024	=	10.210000
+ 40 :	t025	=	c * t024
+ 41 :	c	=	t025
+ 42 :	t026	=	t025
+ 43 :	t027	=	'a'
+ 44 :	g	=	t027
+ 45 :	t028	=	t027
+ 46 :	t029	=	'b'
+ 47 :	h	=	t029
+ 48 :	t030	=	t029
+ 49 :	t031	=	g
+ 50 :	g	=	g + 1
+ 51 :	t032	=	h
+ 52 :	h	=	h - 1
+=====================================================================================
+
+Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : Global
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+main	null		func		0	-1	ptr-to-St( main )Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : main
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		4	0	Int
+a	null		local		4	4	Int
+t000	19		temp		4	-1	Int
+b	null		local		4	12	Int
+t001	3		temp		4	-1	Int
+t002	null		temp		4	-1	Int
+t003	null		temp		4	-1	Int
+t004	null		temp		4	-1	Int
+p1	null		local		4	32	Ptr(Int)
+t005	null		temp		4	-1	Ptr(Int)
+t006	null		temp		4	-1	Ptr(Ptr(Int))
+t007	null		temp		4	-1	Ptr(Ptr(Int))
+t008	4		temp		4	-1	Int
+t009	null		temp		4	-1	Int
+t010	null		temp		4	-1	Int
+t011	2		temp		4	-1	Int
+t012	null		temp		4	-1	Int
+t013	null		temp		4	-1	Int
+f	null		local		4	72	Int
+t014	21		temp		4	-1	Int
+t015	null		temp		4	-1	Int
+c	null		local		8	84	Float
+d	null		local		8	92	Float
+t016	1.800000	temp		8	-1	Float
+t017	null		temp		8	-1	Float
+t018	null		temp		8	-1	Float
+t019	null		temp		8	-1	Float
+t020	21.299999	temp		8	-1	Float
+t021	null		temp		8	-1	Float
+t022	null		temp		8	-1	Float
+t023	null		temp		8	-1	Float
+t024	10.210000	temp		8	-1	Float
+t025	null		temp		8	-1	Float
+t026	null		temp		8	-1	Float
+g	null		local		1	188	Char
+h	null		local		1	189	Char
+t027	a		temp		1	-1	Char
+t028	null		temp		1	-1	Char
+t029	b		temp		1	-1	Char
+t030	null		temp		1	-1	Char
+t031	null		temp		1	-1	Char
+t032	null		temp		1	-1	Char
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=====================================================================================

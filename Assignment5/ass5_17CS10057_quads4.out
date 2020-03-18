@@ -1,0 +1,179 @@
+=====================================================================================
+
+Generated Quads for the program
+
+  0 :	t000	=	 Int2float(b)
+  1 :	t001	=	a * t000
+  2 :	ans	=	t001
+  3 :	t002	=	t001
+  4 :	return	ans
+  5 :	kt	=	b
+  6 :	t003	=	c
+  7 :	p	=	t003
+  8 :	t004	=	 Int2float(a)
+  9 :	t005	=	t004 + b
+ 10 :	t006	=	 float2Int(t005)
+ 11 :	i	=	t006
+ 12 :	return	c
+ 13 :	t007	=	'a'
+ 14 :	a	=	t007
+ 15 :	t008	=	'b'
+ 16 :	b	=	t008
+ 17 :	t009	=	'c'
+ 18 :	c	=	t009
+ 19 :	t010	=	20
+ 20 :	t011	=	15
+ 21 :	t012	=	a
+ 22 :	d	=	t012
+ 23 :	t013	=	9
+ 24 :	k	=	t013
+ 25 :	t014	=	10
+ 26 :	t015	=	k + t014
+ 27 :	l	=	t015
+ 28 :	t016	=	50
+ 29 :	i	=	t016
+ 30 :	t017	=	i
+ 31 :	p	=	t017
+ 32 :	t018	=	0
+ 33 :	t019	=	1
+ 34 :	t021	=	t019 * 120
+ 35 :	t020	=	t018 + t021
+ 36 :	t022	=	1
+ 37 :	t024	=	t022 * 8
+ 38 :	t023	=	t020 + t024
+ 39 :	t025	=	dp
+ 40 :	t026	=	0
+ 41 :	t027	=	1
+ 42 :	t029	=	t027 * 120
+ 43 :	t028	=	t026 + t029
+ 44 :	t030	=	2
+ 45 :	t032	=	t030 * 8
+ 46 :	t031	=	t028 + t032
+ 47 :	t033	=	dp
+ 48 :	param	t025
+ 49 :	param	t033
+ 50 :	t034	=	call function_1, 2
+ 51 :	t035	=	0
+ 52 :	t036	=	1
+ 53 :	t038	=	t036 * 120
+ 54 :	t037	=	t035 + t038
+ 55 :	t039	=	1
+ 56 :	t041	=	t039 * 8
+ 57 :	t040	=	t037 + t041
+ 58 :	t042	=	dp
+ 59 :	param	k
+ 60 :	param	t042
+ 61 :	param	a
+ 62 :	t043	=	call function_2, 3
+=====================================================================================
+
+Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : Global
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+function_1	null		func		0	-1	ptr-to-St( function_1 )Float
+function_2	null		func		0	-1	ptr-to-St( function_2 )Char
+main	null		func		0	-1	ptr-to-St( main )Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : function_1
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		8	0	Float
+a	null		param		8	8	Float
+b	null		param		4	16	Int
+ans	null		local		8	20	Float
+t000	null		temp		8	-1	Float
+t001	null		temp		8	-1	Float
+t002	null		temp		8	-1	Float
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : function_2
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		1	0	Char
+a	null		param		4	1	Int
+b	null		param		8	5	Float
+c	null		param		1	13	Char
+kt	null		local		8	14	Float
+p	null		local		4	22	Ptr(Char)
+t003	null		temp		4	-1	Ptr(Char)
+i	null		local		4	30	Int
+t004	null		temp		8	-1	Float
+t005	null		temp		8	-1	Float
+t006	null		temp		4	-1	Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : main
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		4	0	Int
+a	null		local		1	4	Char
+t007	a		temp		1	-1	Char
+b	null		local		1	6	Char
+t008	b		temp		1	-1	Char
+c	null		local		1	8	Char
+t009	c		temp		1	-1	Char
+dp	null		local		2400	18	Array(20,Array(15,Float))
+t010	20		temp		4	-1	Int
+t011	15		temp		4	-1	Int
+d	null		local		4	2418	Ptr(Char)
+t012	null		temp		4	-1	Ptr(Char)
+k	null		local		4	2426	Int
+t013	9		temp		4	-1	Int
+l	null		local		4	2434	Int
+t014	10		temp		4	-1	Int
+t015	null		temp		4	-1	Int
+i	null		local		4	2446	Int
+t016	50		temp		4	-1	Int
+p	null		local		4	2454	Ptr(Int)
+t017	null		temp		4	-1	Ptr(Int)
+t018	0		temp		4	-1	Int
+t019	1		temp		4	-1	Int
+t020	null		temp		4	-1	Int
+t021	null		temp		4	-1	Int
+t022	1		temp		4	-1	Int
+t023	null		temp		4	-1	Int
+t024	null		temp		4	-1	Int
+t025	null		temp		8	-1	Float
+t026	0		temp		4	-1	Int
+t027	1		temp		4	-1	Int
+t028	null		temp		4	-1	Int
+t029	null		temp		4	-1	Int
+t030	2		temp		4	-1	Int
+t031	null		temp		4	-1	Int
+t032	null		temp		4	-1	Int
+t033	null		temp		8	-1	Float
+t034	null		temp		8	-1	Float
+t035	0		temp		4	-1	Int
+t036	1		temp		4	-1	Int
+t037	null		temp		4	-1	Int
+t038	null		temp		4	-1	Int
+t039	1		temp		4	-1	Int
+t040	null		temp		4	-1	Int
+t041	null		temp		4	-1	Int
+t042	null		temp		8	-1	Float
+t043	null		temp		1	-1	Char
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=====================================================================================

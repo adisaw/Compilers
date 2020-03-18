@@ -1,0 +1,173 @@
+=====================================================================================
+
+Generated Quads for the program
+
+  0 :	t000	=	0
+  1 :	j	=	t000
+  2 :	t001	=	0
+  3 :	k	=	t001
+  4 :	t002	=	41
+  5 :	t003	=	1
+  6 :	t004	=	2
+  7 :	x	=	t004
+  8 :	t005	=	5
+  9 :	y	=	t005
+ 10 :	t006	=	5
+ 11 :	sum	=	t006
+ 12 :	t007	=	10
+ 13 :	i	=	k
+ 14 :	t008	=	k
+ 15 :	if  i <sum	goto 21
+ 16 :	goto 32
+ 17 :	goto 32
+ 18 :	t009	=	i
+ 19 :	i	=	i + 1
+ 20 :	goto 15
+ 21 :	t010	=	0
+ 22 :	t012	=	i * 8
+ 23 :	t011	=	t010 + t012
+ 24 :	t013	=	 Int2float(i)
+ 25 :	a	=	t011
+ 26 :	t014	=	t013
+ 27 :	t015	=	x
+ 28 :	x	=	x + 1
+ 29 :	t016	=	y
+ 30 :	y	=	y - 1
+ 31 :	goto 18
+ 32 :	t017	=	1
+ 33 :	if  sum >t017	goto 36
+ 34 :	goto 59
+ 35 :	goto 59
+ 36 :	t018	=	0
+ 37 :	t020	=	i * 8
+ 38 :	t019	=	t018 + t020
+ 39 :	t021	=	0
+ 40 :	t022	=	1
+ 41 :	t023	=	i - t022
+ 42 :	t025	=	t023 * 8
+ 43 :	t024	=	t021 + t025
+ 44 :	t026	=	a
+ 45 :	t027	=	1.200000
+ 46 :	t028	=	0
+ 47 :	t030	=	i * 8
+ 48 :	t029	=	t028 + t030
+ 49 :	t031	=	a
+ 50 :	t032	=	t027 * t031
+ 51 :	t033	=	t026 + t032
+ 52 :	a	=	t019
+ 53 :	t034	=	t033
+ 54 :	t035	=	1
+ 55 :	t036	=	sum - t035
+ 56 :	sum	=	t036
+ 57 :	t037	=	t036
+ 58 :	goto 32
+ 59 :	t038	=	0
+ 60 :	sum	=	t038
+ 61 :	t039	=	t038
+ 62 :	t040	=	x + y
+ 63 :	x	=	t040
+ 64 :	t041	=	t040
+ 65 :	t042	=	sum
+ 66 :	sum	=	sum + 1
+ 67 :	t043	=	23
+ 68 :	if  x <t043	goto 70
+ 69 :	goto 74
+ 70 :	t044	=	7
+ 71 :	if  sum <t044	goto 62
+ 72 :	goto 74
+ 73 :	goto 74
+ 74 :	t045	=	1233
+ 75 :	iter	=	t045
+ 76 :	goto 83
+ 77 :	t046	=	10
+ 78 :	iter	=	t046
+ 79 :	t047	=	t046
+ 80 :	j	=	iter
+ 81 :	t048	=	iter
+ 82 :	goto 76
+ 83 :	if  iter ==0	goto -1
+ 84 :	goto 77
+=====================================================================================
+
+Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : Global
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+main	null		func		0	-1	ptr-to-St( main )Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : main
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		4	0	Int
+i	null		local		4	4	Int
+j	null		local		4	8	Int
+t000	0		temp		4	-1	Int
+k	null		local		4	16	Int
+t001	0		temp		4	-1	Int
+c	null		local		41	32	Array(41,Array(1,Char))
+t002	41		temp		4	-1	Int
+t003	1		temp		4	-1	Int
+x	null		local		4	73	Int
+t004	2		temp		4	-1	Int
+y	null		local		4	81	Int
+t005	5		temp		4	-1	Int
+sum	null		local		4	89	Int
+t006	5		temp		4	-1	Int
+a	null		local		80	101	Array(10,Float)
+t007	10		temp		4	-1	Int
+t008	null		temp		4	-1	Int
+t009	null		temp		4	-1	Int
+t010	0		temp		4	-1	Int
+t011	null		temp		4	-1	Int
+t012	null		temp		4	-1	Int
+t013	null		temp		8	-1	Float
+t014	null		temp		8	-1	Float
+t015	null		temp		4	-1	Int
+t016	null		temp		4	-1	Int
+t017	1		temp		4	-1	Int
+t018	0		temp		4	-1	Int
+t019	null		temp		4	-1	Int
+t020	null		temp		4	-1	Int
+t021	0		temp		4	-1	Int
+t022	1		temp		4	-1	Int
+t023	null		temp		4	-1	Int
+t024	null		temp		4	-1	Int
+t025	null		temp		4	-1	Int
+t026	null		temp		8	-1	Float
+t027	1.200000	temp		8	-1	Float
+t028	0		temp		4	-1	Int
+t029	null		temp		4	-1	Int
+t030	null		temp		4	-1	Int
+t031	null		temp		8	-1	Float
+t032	null		temp		8	-1	Float
+t033	null		temp		8	-1	Float
+t034	null		temp		8	-1	Float
+t035	1		temp		4	-1	Int
+t036	null		temp		4	-1	Int
+t037	null		temp		4	-1	Int
+t038	0		temp		4	-1	Int
+t039	null		temp		4	-1	Int
+t040	null		temp		4	-1	Int
+t041	null		temp		4	-1	Int
+t042	null		temp		4	-1	Int
+t043	23		temp		4	-1	Int
+t044	7		temp		4	-1	Int
+iter	null		local		4	361	Int
+t045	1233		temp		4	-1	Int
+t046	10		temp		4	-1	Int
+t047	null		temp		4	-1	Int
+t048	null		temp		4	-1	Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=====================================================================================

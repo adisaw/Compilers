@@ -1,0 +1,127 @@
+=====================================================================================
+
+Generated Quads for the program
+
+  0 :	t000	=	a % b
+  1 :	ans	=	t000
+  2 :	return	ans
+  3 :	t001	=	a + b
+  4 :	ans	=	t001
+  5 :	return	ans
+  6 :	t002	=	2
+  7 :	x	=	t002
+  8 :	t003	=	5
+  9 :	y	=	t003
+ 10 :	param	x
+ 11 :	param	y
+ 12 :	t004	=	call summation, 2
+ 13 :	s	=	t004
+ 14 :	param	x
+ 15 :	param	y
+ 16 :	t005	=	call modulus, 2
+ 17 :	m	=	t005
+ 18 :	t006	=	'a'
+ 19 :	a	=	t006
+ 20 :	t007	=	'b'
+ 21 :	b	=	t007
+ 22 :	t008	=	'c'
+ 23 :	c	=	t008
+ 24 :	t009	=	20
+ 25 :	t010	=	15
+ 26 :	t011	=	a
+ 27 :	d	=	t011
+ 28 :	t012	=	9
+ 29 :	k	=	t012
+ 30 :	t013	=	10
+ 31 :	t014	=	k + t013
+ 32 :	l	=	t014
+ 33 :	t015	=	50
+ 34 :	i	=	t015
+ 35 :	t016	=	i
+ 36 :	p	=	t016
+=====================================================================================
+
+Symbol table Maintained For the Given Program
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : Global
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+modulus	null		func		0	-1	ptr-to-St( modulus )Int
+summation	null		func		0	-1	ptr-to-St( summation )Int
+main	null		func		0	-1	ptr-to-St( main )Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : modulus
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		4	0	Int
+a	null		param		4	4	Int
+b	null		param		4	8	Int
+ans	null		local		4	12	Int
+t000	null		temp		4	-1	Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : summation
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		4	0	Int
+a	null		param		4	4	Int
+b	null		param		4	8	Int
+ans	null		local		4	12	Int
+t001	null		temp		4	-1	Int
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Symbol Table : main
+
+-------------------------------------------------------------------------------------
+Name	Value		vType	Size	Offset	Type
+-------------------------------------------------------------------------------------
+retVal	null		return		4	0	Int
+x	null		local		4	4	Int
+t002	2		temp		4	-1	Int
+y	null		local		4	12	Int
+t003	5		temp		4	-1	Int
+s	null		local		4	20	Int
+t004	null		temp		4	-1	Int
+m	null		local		4	28	Int
+t005	null		temp		4	-1	Int
+a	null		local		1	36	Char
+t006	a		temp		1	-1	Char
+b	null		local		1	38	Char
+t007	b		temp		1	-1	Char
+c	null		local		1	40	Char
+t008	c		temp		1	-1	Char
+dp	null		local		2400	50	Array(20,Array(15,Float))
+t009	20		temp		4	-1	Int
+t010	15		temp		4	-1	Int
+d	null		local		4	2450	Ptr(Char)
+t011	null		temp		4	-1	Ptr(Char)
+k	null		local		4	2458	Int
+t012	9		temp		4	-1	Int
+l	null		local		4	2466	Int
+t013	10		temp		4	-1	Int
+t014	null		temp		4	-1	Int
+i	null		local		4	2478	Int
+t015	50		temp		4	-1	Int
+p	null		local		4	2486	Ptr(Int)
+t016	null		temp		4	-1	Ptr(Int)
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+=====================================================================================
